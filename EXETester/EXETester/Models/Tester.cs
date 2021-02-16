@@ -68,6 +68,7 @@ namespace EXETester.Models
             {
                 WriteToFile($"Ex={e?.Message} \n InnerEx={e?.InnerException?.Message}");
             }
+            ArgumentFiles.ForEach(a => File.Delete(a));
 
             Process.Start("notepad.exe", OutPutPath);
 
