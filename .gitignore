@@ -6,6 +6,9 @@
 *.lo
 *.o
 *.obj
+.vs/
+bin/
+obj/
 
 # Precompiled Headers
 *.gch
@@ -30,3 +33,4 @@
 *.exe
 *.out
 *.app
+
